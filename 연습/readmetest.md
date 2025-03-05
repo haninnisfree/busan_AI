@@ -30,15 +30,24 @@ html 코드 작성
 [simple icons](https://simpleicons.org)  
 [Shields](https://shields.io)  
 
-#### 기본 뱃지
+기본 뱃지
 ![GitHub Repo stars](https://img.shields.io/github/stars/github?style=social)
 
-#### 커스텀 텍스트 뱃지
+커스텀 텍스트 뱃지
 ![Custom Badge](https://img.shields.io/badge/Study-Markdown-blue)
 
-#### 프로그래밍 언어 뱃지 (Simple Icons 활용)
+프로그래밍 언어 뱃지 (Simple Icons 활용)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-![표시문자](url)
+### 이미지 넣기 
+![표시문자](url)  
 ![git](https://git-scm.com/images/logo@2x.png)
+
+### 강조 표시
+*강조*
+_강조_
+**강조**
+__강조__
+~~강조~~
+
