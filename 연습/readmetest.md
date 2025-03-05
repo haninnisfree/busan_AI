@@ -29,8 +29,6 @@ html 코드 작성
 [표시내용](url)
 [simple icons](https://simpleicons.org)
 
-### 뱃지(Badge)
-
 #### 기본 뱃지
 ![GitHub Repo stars](https://img.shields.io/github/stars/github?style=social)
 
