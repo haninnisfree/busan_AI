@@ -74,3 +74,4 @@ YOLO: 객체 탐지, 분류, 자세 추정
 
 출처: 국립부경대학교 디지털스마트부산 아카데미# busan_AI
 # busan_AI
+# busan_AI
