@@ -26,8 +26,9 @@ html 코드 작성
 > 인용구문 작성
 
 ### 뱃지(Badge)
-[표시내용](url)
-[simple icons](https://simpleicons.org)
+[표시내용](url)  
+[simple icons](https://simpleicons.org)  
+[Shields](https://shields.io)  
 
 #### 기본 뱃지
 ![GitHub Repo stars](https://img.shields.io/github/stars/github?style=social)
@@ -39,4 +40,5 @@ html 코드 작성
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-
+![표시문자](url)
+![git](https://git-scm.com/images/logo@2x.png)
