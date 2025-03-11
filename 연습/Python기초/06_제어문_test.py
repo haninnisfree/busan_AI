@@ -3,6 +3,8 @@
     # 5번이 아니기 전에는 계속 반복하고 싶다. 
     # input은 str이다. int로 바꿔주기 싫으면, 문자열 5를 애초에 처음부터 비교하면 된다. 
 
+import sys
+
 display = '''
 -------------------------------------------------------------------
 1. 명함 입력 2. 명함 수정 3. 명함 삭제 4. 명함 목록 보기 5. 종료
@@ -21,45 +23,9 @@ card_display2 = '''
 -------------------------------------------------------------------
 메뉴를 선택하세요 >>>> '''
 
-list = [] # 명함목록 리스트
-menu = [] # 개인 명함 작성 리스트
+list1 = [] # 개개인의 명함 정보란
+list2 = []# 명함 목록란
 
-while menu != '5' : # 종료 누르기 전까지 반복 , 종료 누르면 반복은 끝남
+while True :
     print(display)
-    menu = int(input("원하는 메뉴를 입력하세요."))
-    if menu == '1' :
-        name = input("이름 입력")
-        email = input("이메일 입력")
-        phone_num = input("전화번호 입력")
-        belong = input("소속 입력")
-    elif menu == '2' :
-        print(card_display)
-        list_num = int(input("수정을 원하는 메뉴를 입력하세요."))
-        if list_num == "1" :
-            name = input("수정할 이름 입력")
-        elif list_num == "2" :
-            email = input("수정할 이메일 입력")
-        elif list_num == "3" :
-            phone_num = input("전화번호 입력")
-        elif list_num == "4" :
-            belong = input("소속 입력")
-        else :
-            print(display)
-            int(input("원하는 메뉴를 선택하세요.")) # 종료가 되어야 함.
-        
-
-
-
-    if menu == '1' :
-        print('명함입력')
-    elif menu == '2' : 
-        print('명함수정')
-    elif menu == '3' :
-        print('명함삭제')
-    elif menu == '4' :
-        print('명함목록보기')
-    elif menu == '5' :
-        print('프로그램 종료')
-        sys.exit()
-    else :
-        print('메뉴 선택을 잘못하셨습니다.')
+choice = int(input("원하는 메뉴를 입력하세요."))
